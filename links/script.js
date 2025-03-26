@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('links/links.json')
+    fetch('source/links.json')
         .then(response => response.json())
         .then(data => {
             const linksContainer = document.getElementById('links-container');
